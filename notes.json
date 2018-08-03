@@ -1,0 +1,11 @@
+how does a aself calling function get called from the file its in?
+
+how does the function call variables and use them as methods, 
+   when they are not using the syntax of a standard method of an object (that i'm used to)
+   
+why does it declare variables for Array.prototype.map and isArray and toString? instead of just calling .map() etc. ?  
+=> because it declares a function 'map()' on line 100
+
+difference between .call() .apply() (and .bind in regards to setting this)
+
+what is Math.abs (something to do with absolute?)
